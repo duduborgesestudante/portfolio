@@ -1,0 +1,37 @@
+table{
+    margin: 0 auto 0 auto;
+    padding: 2%;
+    font-size: 18px;
+
+}
+tr{
+ margin: 0 30px;
+ 
+}
+td{
+ padding: 5px 30px 5px 5px;
+    border: 1px solid rgba(214, 211, 211, 0.774);
+    border-right: 1px solid rgba(214, 211, 211, 0.774);
+    border-bottom: 0;
+    border-left: 0 ;
+}
+th{
+   border-top: 1px solid rgba(214, 211, 211, 0.774);
+   border-left: 1px solid rgba(214, 211, 211, 0.774);
+    padding: 15px 15px 15px 15px ;
+    border-right: 1px solid rgba(214, 211, 211, 0.774);
+    border-bottom: 0;
+
+}
+.horas{
+    border-bottom: 1px solid rgba(214, 211, 211, 0.774);
+}
+#conteudo{
+    border-bottom: 1px solid rgba(214, 211, 211, 0.774);
+}
+#dia{
+    border: 0;
+    border-right: 1px solid rgba(214, 211, 211, 0.774);
+    border-top: 1px solid rgba(214, 211, 211, 0.774) ;
+
+}

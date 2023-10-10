@@ -1,0 +1,44 @@
+*{
+    margin: 0; 
+    padding: 0  ;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* link que foi visitado */
+a:visited {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* mouse over */
+a:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* link selecionado */
+a:active {
+    color: white;
+    text-decoration: none;
+
+}
+div:target{
+    scroll-margin-top: 100px
+   
+}
+html{
+    scroll-behavior: smooth ;
+}

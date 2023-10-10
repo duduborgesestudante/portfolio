@@ -4,21 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-        <nav class="navbar">
-            <p><b>Inicio</b></p>
-            <p>Capas</p>
-            <p>Rotina de estudos</p>
-            <p>Curriculo</p>
-            <p>Sobre mim</p>
-        </nav>
+      <nav class="navbar">
+        <p><a href="#">Inicio</a></p>
+        <p><a href="#apresentacao">Apresentação</a></p>
+        <p><a href="#capa">Capas</a></p>
+        <p><a href="#rotina">Rotina de estudos</a></p>
+        <p><a href="#">Currículo</a></p>
+        <p><a href="#">Sobre mim</a></p>
+      </nav>
     </header>
     <div class="titulo-principal">
-      <p id="title-index" >Portfolio 3º trimestre</p>
-      <p id="nome-title" >Eduardo Borges</p >
+      <p id="title-index">Portfolio 3º trimestre</p>
+      <p id="nome-title">Eduardo Borges</p>
     </div>
+    <div class="triangle-bottom-right"></div>
+    <div class="bg-triangulo">
+    <div id="apresentacao">
+      <div >
+        <p>
+          Olá eu sou o Eduardo Borges, estudante do ensino médio com técnico
+          integrado. <br />
+          Escolhi fazer meu site em html pois é um jeito de fazer um trabalho da
+          escola <br />
+          se tornar legal durante a produção, ainda mais que agora aprendi a
+          "fazer" <br />sites em html junto com meu mano Arthur.
+        </p>
+      </div>
+      
+      <div>
+        <img
+          id="minha_foto"
+          src="\img\minha_foto.jpg"
+          height="400"
+          width="300"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="triangle-top-left"></div>
+  <div id="capa">
+    <div class="titulo_capa">
+      <p>Aqui estão as capas de cada materia!</p>
+      <p id="subtitulo"> (Clique em cada capa para ver as atividades) </p>
+    </div>
+    <div class="box">
+      <div>
+        <p>Capa para Humanas</p>
+        <img src="\img\humanas.png" id="capas" height="200" width="400" />
+      </div>
+      <div>
+        <p>Capa para Matematica</p>
+        <img src="\img\matematica.png" id="capas" height="200" width="400" />
+      </div>
+      <div>
+        <p>Capa para Natureza</p>
+        <img src="\img\natureza.png" id="capas" height="200" width="400" />
+      </div>
+    </div>
+    <div class="box">
+      <div>
+        <p id="linguagens">Capa para Linguagens</p>
+        <img src="\img\linguagens.png" id="capas" height="200" width="400" />
+      </div>
+      <div>
+        <p>Capa de Lógica de programação</p>
+        <img
+          src="\img\logica_program.png"
+          id="capas"
+          height="200"
+          width="400"
+        />
+      </div>
+      <div>
+        <p>Capa para Lógica computacional</p>
+        <img src="\img\logica_cpu.png" id="capas" height="200" width="400" />
+      </div>
+    </div>
+
+    <div class="box">
+      <div id="ultima">
+        <p>Capa para TI</p>
+        <img src="\img\ti.png" id="capas" height="200" width="400" />
+      </div>
+      <div>
+        <p>Capa para design</p>
+        <img src="\img\design.png" id="capas" height="200" width="400" />
+      </div>
+    </div>
+  </div>
+  <div class="triangle-bottom-left"></div>
+    <div class="bg-triangulo">
+    <div class="tabela" id="rotina">
+      <table>
+        <thead>
+          <tr>
+            <th id="horario">Horario</th>
+            <th id="dia">Segunda-feira</th>
+            <th id="dia" >Terça-feira</th>
+            <th id="dia" >Quarta-feira</th>
+            <th id="dia" >Quinta-feira</th>
+            <th id="dia" >Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th >7:40 - 13:00</th>
+            <td >Aula</td>
+            <td >Aula</td>
+            <td >Aula</td>
+            <td >Aula</td>
+            <td class="conteudo">Aula</td>
+          </tr>
+          <tr>
+            <th >15:00 - 17:00</th>
+            <td >Sonequinha</td>
+            <td >Sonequinha</td>
+            <td >Sonequinha</td>
+            <td >Sonequinha</td>
+            <td class="conteudo">Lazer</td>
+          </tr>
+          <tr>
+            <th >17:00 - 19:00</th>
+            <td >Curso de react</td>
+            <td >Colocando em prática</td>
+            <td >Curso de react</td>
+            <td >Colocando em prática</td>
+            <td class="conteudo">Lazer</td>
+          </tr>
+          <tr>
+            <th class="horas" >19:00 - 23:00</th>
+            <td id="conteudo" >Janta e revisão da Geekie</td>
+            <td id="conteudo" >Janta e revisão da Geekie</td>
+            <td id="conteudo" >Janta e revisão da Geekie</td>
+            <td id="conteudo" >Janta e revisão da Geekie</td>
+            <td id="conteudo" >Janta e revisão da Geekie</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="triangle-top-rigth"></div>
+  
+  
+  
+    
   </body>
 </html>
