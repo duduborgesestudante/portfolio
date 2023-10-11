@@ -1,27 +1,31 @@
 .triangle-top-left {
-    border-top: 80px solid #1e0758c7;
+    border-top: 80px solid #361c79d7;
     border-right: 98vw solid transparent;
     margin: 0;
-    
+
 }
+
 .triangle-bottom-right {
-    border-bottom: 80px solid #1e0758c7;
+    border-bottom: 80px solid #361c79d7;
     border-left: 100vw solid transparent;
     margin: 0;
 }
-.bg-triangulo{
-    background-color:#1e0758c7 ;
+
+.bg-triangulo {
+    background-color: #361c79d7;
     margin: 0;
     padding: 50px;
 }
+
 .triangle-top-rigth {
-    border-top: 80px solid #1e0758c7;
+    border-top: 80px solid #361c79d7;
     border-left: 98vw solid transparent;
     margin: 0;
-    
+
 }
+
 .triangle-bottom-left {
-    border-bottom: 80px solid #1e0758c7;
+    border-bottom: 80px solid #361c79d7;
     border-right: 100vw solid transparent;
     margin: 0;
 }

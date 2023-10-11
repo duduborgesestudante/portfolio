@@ -3,7 +3,10 @@
 @import url(util.css);
 @import url(capas.css);
 @import url(triangulos.css);
-body{
+@import url(curriculo.css);
+@import url(sobre.css);
+
+body {
     font-family: 'Young Serif', serif;
     background-image: linear-gradient(#261358, #2D1666);
     background-repeat: no-repeat;
@@ -13,48 +16,62 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
-.titulo-principal{
+
+li {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.titulo-principal {
     font-family: 'Young Serif', serif;
     text-align: center;
     width: fit-content;
-    
+
     margin: 20px auto 40px auto;
 }
-#apresentacao{
+
+#apresentacao {
     display: flex;
     flex-direction: row-reverse;
     width: fit-content;
-    margin: 0 auto  ;
+    margin: 0 auto;
 
 }
+
 #apresentacao img {
     margin-right: 20%;
     border-radius: 8px;
 }
+
 #apresentacao p {
-   font-size: 20px;
-   margin: 0 50px;
+    font-size: 20px;
+    margin: 0 50px;
 }
-#title-index{
+
+#title-index {
     font-size: 90px;
-    
+
 }
-#nome-title{
+
+#nome-title {
     font-family: 'Young Serif', serif;
     text-align: end;
 }
 
-.navbar{
+.navbar {
     background-color: #261358;
     display: flex;
     flex-direction: row;
-    
+
 }
+
 nav p {
     margin: 20px 5px 20px 20px;
     font-size: 18px;
 }
-header{
+
+header {
     position: sticky;
     top: 0;
 

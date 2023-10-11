@@ -1,35 +1,49 @@
-
-.box{
+.box {
     display: flex;
     flex-direction: row;
     margin: auto;
 }
-.box div{
+
+.box div {
     margin: auto;
 }
-.box p{
+
+.box p {
     font-size: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
 
 }
-.titulo_capa{
+
+.box b {
+    color: rgb(187, 116, 253);
+}
+
+.titulo_capa {
     width: fit-content;
     font-size: 30px;
     text-align: center;
     margin: 50px auto 50px auto;
-    
+
 }
-#capas:hover{
-    box-shadow: 0px 5px 15px 8px rgb(110, 13, 221);
+
+#capas:hover {
+    box-shadow: 0px 5px 15px 10px rgb(110, 13, 221);
+    scale: 1.1;
+
 }
-#capas{
-    transition: 1s;
+
+#capas {
+    transition: 0.6s;
+    border-radius: 8px;
 }
-#subtitulo{
+
+
+#subtitulo {
     text-align: right;
     font-size: 12px;
 }
-#capa{
+
+#capa {
     margin-bottom: 50px;
 }
