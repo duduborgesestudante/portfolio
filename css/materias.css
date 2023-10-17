@@ -4,13 +4,17 @@ body {
     font-family: 'Young Serif', serif;
     background-image: linear-gradient(#261358, #2D1666);
     background-repeat: no-repeat;
-    height: 100vh;
     background-size: cover;
+    height: 100vh;
+   
     color: #ffff;
     width: 100vw;
     overflow-x: hidden;
     text-align: center;
     font-size: xx-large;
+}
+.total{
+    height: 100vh;
 }
 
 li {
@@ -18,5 +22,6 @@ li {
 }
 
 * {
+    
     padding-top: 20px;
 }
