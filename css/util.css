@@ -1,11 +1,13 @@
-*{
-    margin: 0; 
-    padding: 0  ;
+* {
+    margin: 0;
+
 }
-a{
+
+a {
     cursor: pointer;
     text-decoration: none;
 }
+
 a:link {
     cursor: pointer;
     color: white;
@@ -35,10 +37,11 @@ a:active {
     text-decoration: none;
 
 }
-div:target{
+
+div:target {
     scroll-margin-top: 100px
-   
 }
-html{
-    scroll-behavior: smooth ;
+
+html {
+    scroll-behavior: smooth;
 }
