@@ -30,7 +30,9 @@ li {
 
     margin: 20px auto 40px auto;
 }
-
+#apres_sobre{
+    width: min-content +50px;
+}
 #apresentacao {
     display: flex;
     flex-direction: row-reverse;
